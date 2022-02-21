@@ -1,0 +1,65 @@
+body {
+  background-color: lightblue;
+}
+main {
+  background-color: #f28ab2;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 500px;
+  background-color: white;
+  margin: auto;
+  color: #333638;
+  border-radius: 5px;
+  box-shadow: 2px 2px 9px 2px gray;
+  padding: 30px;
+}
+.container h3 {
+  font-size: 25px;
+  margin: 0;
+}
+.container button {
+  color: var(--clr-white);
+  display: block;
+  width: 100%;
+  border-color: transparent;
+  background: #f28ab2;
+  margin: 2rem auto 0 auto;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  padding: 0.5rem 0;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  outline: 1px solid rgba(242, 138, 178, 0.8);
+  cursor: pointer;
+}
+.list-container {
+  width: auto;
+  margin: 15px;
+  border-radius: 10px;
+  display: flex;
+}
+.list-container img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.list-name {
+  margin: 0px;
+  padding-left: 15px;
+}
+.list-name h4 {
+  font-size: 18px;
+}
+@media screen and (max-width: 600px) {
+  .birthday {
+    background-color: #f28ab2;
+    width: 400px;
+    margin: auto;
+    padding: 30px;
+  }
+}

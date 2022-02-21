@@ -5,11 +5,11 @@ import data from "./data";
 const BirthdayReminder = () => {
   const [people, setPeople] = useState(data);
   return (
-    <main className="birthday">
+    <main>
       <section className="container">
         <h3> {people.length} birthdays Today</h3>
         <List people={people} />
-        <button onClick={() => console.log("clicked once ")}>Clear All</button>
+        <button onClick={() => setPeople([])}>Clear All</button>
       </section>
     </main>
   );

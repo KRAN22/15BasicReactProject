@@ -1,7 +1,9 @@
+import BirthdayReminder from "./01-birthday-reminder/home";
+
 function App() {
   return (
     <div className="App">
-      <h1>hello</h1>
+      <BirthdayReminder />
     </div>
   );
 }
