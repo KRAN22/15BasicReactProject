@@ -1,0 +1,41 @@
+body {
+  background-color: lightblue;
+}
+.birthday {
+  background-color: #f28ab2;
+  width: 800px;
+  height: 500px;
+  margin: auto;
+  padding: 50px;
+}
+.container {
+  width: 300px;
+  background-color: white;
+  margin: auto;
+  color: #333638;
+  margin-top: 150px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px gray;
+  padding: 20px;
+}
+.container h3 {
+  margin: 0%;
+  font-size: 17px;
+}
+.container button {
+  background-color: #f28ab2;
+  border-color: #f28ab2;
+  color: white;
+  width: 250px;
+  padding: 3px;
+  font-size: 18px;
+  margin-left: 20px;
+}
+@media screen and (max-width: 600px) {
+  .birthday {
+    background-color: #f28ab2;
+    width: 400px;
+    margin: auto;
+    padding: 30px;
+  }
+}
