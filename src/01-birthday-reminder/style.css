@@ -22,7 +22,7 @@ main {
   margin: 0;
 }
 .container button {
-  color: var(--clr-white);
+  color: white;
   display: block;
   width: 100%;
   border-color: transparent;
@@ -55,8 +55,8 @@ main {
 .list-name h4 {
   font-size: 18px;
 }
-@media screen and (max-width: 600px) {
-  .birthday {
+@media screen and (max-width: 500px) {
+  main {
     background-color: #f28ab2;
     width: 400px;
     margin: auto;
