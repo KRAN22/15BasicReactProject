@@ -1,5 +1,6 @@
 import BirthdayReminder from "./01-birthday-reminder/home";
 import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
+import { Home } from "./02-TourFeachData/home";
 
 function App() {
   const Links = () => {
@@ -28,6 +29,7 @@ function App() {
           <Route path="/birthday" element={<BirthdayReminder />} />
         </Routes>
       </BrowserRouter>
+      <Home />
     </div>
   );
 }
